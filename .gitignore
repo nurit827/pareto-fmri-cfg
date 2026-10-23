@@ -1,0 +1,30 @@
+# Public repository: code, documentation and figures only.
+# Data (participant connectivity matrices, behavioral tables, PCA basis),
+# per-participant CSVs and paper drafts / PDFs are NOT included.
+
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/scripts/
+!/docs/
+!/results/
+
+# docs: only the pipeline documentation
+/docs/*
+!/docs/PIPELINE_DOCUMENTATION.md
+
+# results: only figures from the paper and the per-phase analysis
+/results/*
+!/results/figures_for_paper/
+!/results/per_phase/
+/results/figures_for_paper/*
+!/results/figures_for_paper/*.png
+/results/per_phase/*
+!/results/per_phase/*.png
+
+__pycache__/
+*.pyc
+.DS_Store
+*Zone.Identifier
+.idea/
